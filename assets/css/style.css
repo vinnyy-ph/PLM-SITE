@@ -1802,12 +1802,18 @@ footer.bg-dark .f-item .address li strong {
 }
 
 .serve .item:hover a,
-.serve .item:hover p {
+.serve .item:hover p,
+.serve .item:hover h5 {
   color: #ffffff;
 }
 
+.serve .item h5 {
+    font-weight: bolder;
+    transition: all 0.35s ease-in-out;
+}
+
 .serve .item:hover::after {
-  background: url(assets/img/shape/serve-hover.png);
+  background: url(/assets/img/shape/serve-hover.png);
   opacity: 0.1;
   left: 0;
   top: 0;
